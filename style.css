@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.icon {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navlist {
+    display: flex;
+
+}
+
+.navlist li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist li a {
+    text-decoration: none;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+
+
+}
+
+.rightNav {
+    width: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search {
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 50%;
+    border: none;
+
+}
+
+
+.main-part {
+    height: 50vh;
+    background-color: rgb(252, 190, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.content1 {
+    align-items: center;
+}
+
+
+.person {
+    margin-inline: 32px
+}
+
+.watch-our-history {
+    margin-inline: 34px;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+.text-head {
+    font-size:45px;
+}
+
+.text-content {
+    position: absolute;
+    top: 50px;
+    left: 40%;
+
+}
+
+.rotterdam-text {
+    color: rgb(154, 154, 23);
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700
+}
+
+.lomax-text {
+    color: rgb(210, 146, 146);
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700
+}
+
+.birstol-text {
+    color: rgb(71, 65, 65);
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700
+}
+
+.burger {
+    cursor: pointer;
+    top: 15px;
+    display: none;
+}
+
+.cross {
+    display: none;
+    font-size: 22px;
+
+}
+
+.line {
+    width: 73px;
+    background-color: black;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width:1140px) {
+
+    .navlist {
+        margin-top: 20px;
+        flex-direction: column;
+
+        width: 100vw;
+    }
+
+    .v-class-resp {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .rightNav {
+        text-align: center;
+
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .main-part {
+        height: 65vh;
+    }
+
+    .rightNav {
+        width: 30vw;
+    }
+
+    .text {
+        position: static;
+        margin: 20px;
+        width: 70vw;
+    }
+
+    .text-content {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .icon {
+        font-size: 25px;
+    }
+
+    img {
+        margin-inline: 0px;
+    }
+
+    .content {
+        font-size: 40px;
+    }
+
+
+
+}
