@@ -243,7 +243,9 @@ nav {
     .content {
         font-size: 40px;
     }
-
+.rotterdam , .lomax , .birstol{
+    margin-block: 15px;
+}
 
 
 }
