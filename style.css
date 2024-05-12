@@ -121,7 +121,7 @@ nav {
 
 
 .text-head {
-    font-size:45px;
+    font-size: 45px;
     margin-left: 40px;
 }
 
@@ -173,10 +173,10 @@ nav {
 }
 
 @media only screen and (max-width:1140px) {
-    .icon{
+    .icon {
         margin-left: 7px;
     }
-    
+
 
     .navlist {
         margin-top: 20px;
@@ -184,7 +184,8 @@ nav {
 
         width: 100vw;
     }
-    .navbar{
+
+    .navbar {
         margin-inline: 6px;
     }
 
@@ -221,9 +222,10 @@ nav {
         width: 70vw;
     }
 
-    .text-head{
+    .text-head {
         margin: 0px;
     }
+
     .text-content {
         position: static;
         display: flex;
@@ -245,9 +247,12 @@ nav {
     .content {
         font-size: 40px;
     }
-.rotterdam , .lomax , .birstol{
-    margin-block: 15px;
-}
+
+    .rotterdam,
+    .lomax,
+    .birstol {
+        margin-block: 15px;
+    }
 
 
 }
