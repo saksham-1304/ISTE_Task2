@@ -171,6 +171,9 @@ nav {
 }
 
 @media only screen and (max-width:1140px) {
+    .icon{
+        margin-left: 7px;
+    }
     
 
     .navlist {
@@ -193,6 +196,7 @@ nav {
 
     .rightNav {
         text-align: center;
+        margin-right: 7px;
 
     }
 
