@@ -120,6 +120,7 @@ nav {
 
 .text-head {
     font-size:45px;
+    margin-left: 40px;
 }
 
 .text-content {
@@ -170,12 +171,16 @@ nav {
 }
 
 @media only screen and (max-width:1140px) {
+    
 
     .navlist {
         margin-top: 20px;
         flex-direction: column;
 
         width: 100vw;
+    }
+    .navbar{
+        margin-inline: 6px;
     }
 
     .v-class-resp {
@@ -197,6 +202,7 @@ nav {
 
     .main-part {
         height: 65vh;
+        padding: 8px;
     }
 
     .rightNav {
@@ -209,6 +215,9 @@ nav {
         width: 70vw;
     }
 
+    .text-head{
+        margin: 0px;
+    }
     .text-content {
         position: static;
         display: flex;
